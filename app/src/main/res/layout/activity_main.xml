@@ -1,0 +1,75 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:orientation="vertical"
+    tools:context=".MainActivity"
+    android:background="@color/cardview_dark_background">
+
+
+    <ImageView
+        android:layout_width="wrap_content"
+        android:layout_height="254dp"
+        android:layout_gravity="center"
+        android:src="@drawable/musculacao"
+        android:layout_marginTop="10dp"
+        />
+
+    <EditText
+        android:id="@+id/peso"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:hint="Peso"
+        android:textColorHint="@color/blue_dark"
+        android:padding="20dp"
+        android:inputType="numberDecimal"
+        android:layout_marginTop="20dp"
+        android:layout_marginStart="20dp"
+        android:layout_marginEnd="20dp"
+        android:textColor="@color/blue_light"
+        />
+
+    <EditText
+        android:id="@+id/altura"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:hint="Altura"
+        android:inputType="numberDecimal"
+        android:textColorHint="@color/blue_dark"
+        android:layout_marginTop="30dp"
+        android:layout_marginStart="20dp"
+        android:layout_marginEnd="20dp"
+        android:padding="20dp"
+        android:textColor="@color/blue_light"
+    />
+
+    <Button
+        android:id="@+id/bt_calcular"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_marginStart="20dp"
+        android:layout_marginEnd="20dp"
+        android:text="Calcular"
+        android:textAllCaps="false"
+        android:padding="15dp"
+        android:textStyle="bold"
+        android:layout_marginTop="50dp"
+        android:textSize="18sp"
+        android:backgroundTint="@color/blue_dark"
+        />
+
+    <TextView
+        android:id="@+id/mensagem"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_marginTop="30dp"
+        android:padding="40dp"
+        android:gravity="center"
+        android:textSize="22sp"
+        android:hint="Informe seu peso e altura"
+        android:textColorHint="@color/blue_dark"
+        />
+
+</LinearLayout>
